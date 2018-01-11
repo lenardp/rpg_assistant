@@ -1,0 +1,38 @@
+For reference.
+
+# Easy use PoC
+# temporarily using donjon for now
+# https://donjon.bin.sh/fantasy/random/rpc.cgi?type=Encounter&enc_type=Dungeon&n=1
+App:  Welcome to RPG Assistant.  What do you need?
+User: An encounter
+App:  In a dungeon, road, sea, town or wilderness?
+User: A Dungeon
+App: A wandering kobold accidentally triggers an arrow trap.
+
+# next iteration
+App:  Welcome to RPG Assistant.  What do you need?
+User: A session seed.
+App: How about a race involving a flower, a country and greed?
+User: Next
+App: How about a gauntlet involving a hero, a ship and a desert?
+User:  Thanks.
+App:  Happy to help.  Bye!
+
+# Ideal:
+App:  Welcome to RPG Assistant.  What do you need?
+User: A session seed.
+App: Which allies are involved?
+User: Sebastian, the butler
+App: Who else?
+User: Reya
+App: Who else?
+User:  That's it.
+App: Which enemies are involved?
+User: Kremlad
+App: Who else?
+User:  That's it.
+App: A race against Kremlad to save Reya.
+
+# More ideal:  Saving your characters and settings for use
+# needs to be very fluid
+
