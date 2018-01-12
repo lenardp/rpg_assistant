@@ -3,11 +3,13 @@
 process.env.DEBUG = 'actions-on-google:*';
 import { DialogflowApp as App } from 'actions-on-google';
 import * as functions from 'firebase-functions';
+import * as LocationGenerator from './actions/generate_location';
 import * as QuestGenerator from './actions/generate_quests';
 import * as QuestSeedGenerator from './actions/generate_quest_seed';
 
 const ACTION_MAP = {
   'generate_quest': QuestGenerator.generateQuests,
+  'generate_location': LocationGenerator.generateLocation,
   'generate_quest_seeds': QuestSeedGenerator.generateQuestSeed
 }
 

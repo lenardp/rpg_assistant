@@ -18,7 +18,7 @@ function randomSparks(num) {
     return sparks;
 }
 function assembleSeed(premise, sparks) {
-    let last = sparks[sparks.length - 1];
+    const last = sparks[sparks.length - 1];
     sparks[sparks.length - 1] = 'and ' + last;
     return "How about a " + premise + " involving " + sparks.join(', ') + "?";
 }

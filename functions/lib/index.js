@@ -3,10 +3,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 process.env.DEBUG = 'actions-on-google:*';
 const actions_on_google_1 = require("actions-on-google");
 const functions = require("firebase-functions");
+const LocationGenerator = require("./actions/generate_location");
 const QuestGenerator = require("./actions/generate_quests");
 const QuestSeedGenerator = require("./actions/generate_quest_seed");
 const ACTION_MAP = {
     'generate_quest': QuestGenerator.generateQuests,
+    'generate_location': LocationGenerator.generateLocation,
     'generate_quest_seeds': QuestSeedGenerator.generateQuestSeed
 };
 exports.rpgAssistant = functions.https.onRequest((request, response) => {

@@ -22,7 +22,7 @@ function randomSparks(num: number) {
 }
 
 function assembleSeed(premise: string, sparks: string[]) {
-  let last = sparks[sparks.length-1];
+  const last = sparks[sparks.length-1];
   sparks[sparks.length-1] = 'and ' + last;
   return "How about a " + premise + " involving " + sparks.join(', ') + "?";
 }
