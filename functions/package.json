@@ -16,6 +16,8 @@
   },
   "main": "lib/index.js",
   "dependencies": {
+    "request": "~2.83.0",
+    "tslint": "^5.8.0",
     "actions-on-google": "^1.0.0",
     "firebase-admin": "^4.2.1",
     "firebase-functions": "^0.5.7"
