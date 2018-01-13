@@ -1,9 +1,9 @@
 import { DialogflowApp as App } from 'actions-on-google';
 import * as requestModule from 'request';
 
-const FANTASY_NAMES = require('../../configs/donjon_fantasy_name');
+const NAMES = require('../../configs/donjon_name');
 
-const generateFantasyName = (app: App) => {
+const generateName = (app: App) => {
   let url = "http://donjon.bin.sh/name/rpc.cgi?"
   let num = app.getArgument("number");
 
@@ -13,10 +13,10 @@ const generateFantasyName = (app: App) => {
 
   let nameType = app.getArgument("name_type").toLowerCase();
 
-  const choices = FANTASY_NAMES.map(x => x.toLowerCase());
+  const choices = NAMES.map(x => x.toLowerCase());
   if (choices.indexOf(nameType) > -1) {
     const ind = choices.indexOf(nameType);
-    const cleanChoice = FANTASY_NAMES[ind];
+    const cleanChoice = NAMES[ind];
     nameType = cleanChoice;
 
     url = url + "type=" + nameType.replace(' ', '+') + "&n=" + num;
@@ -32,5 +32,5 @@ const generateFantasyName = (app: App) => {
 };
 
 export const ACTION_MAP = {
-  'generate_fantasy_name': generateFantasyName
+  'generate_name': generateName
 };
