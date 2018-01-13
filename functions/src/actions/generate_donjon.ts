@@ -2,9 +2,11 @@ import { DialogflowApp as App } from 'actions-on-google';
 import * as requestModule from 'request';
 
 const FANTASY_CHOICES = require('../../configs/donjon_fantasy');
+const SCIFI_CHOICES = require('../../configs/donjon_scifi');
 
 const DONJON_CHOICES = {
-  'fantasy': FANTASY_CHOICES
+  'fantasy': FANTASY_CHOICES,
+  'scifi': SCIFI_CHOICES
 }
 
 const DONJON_URL = 'http://donjon.bin.sh/';

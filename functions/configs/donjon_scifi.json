@@ -1,0 +1,50 @@
+{
+  "Cyberpunk+Job": null,
+  "Cyberpunk+NPC": {
+    "gender": [
+      "",
+      "Male",
+      "Female"
+    ],
+    "class": [
+      "",
+      "Corporate",
+      "Data Broker",
+      "Driver",
+      "Hacker",
+      "Mechanic",
+      "Media",
+      "Mercenary",
+      "Paramedic",
+      "Smuggler",
+      "Technician"
+    ],
+    "culture": [
+      "",
+      "Modern",
+      "Japanese",
+      "Chinese",
+      "Russian"
+    ]
+  },
+  "Mecha": {
+    "size": [
+      "",
+      "Light",
+      "Medium",
+      "Heavy"
+    ],
+    "class": [
+      "",
+      "Aerospace Mech",
+      "Artillery Mech",
+      "Assault Mech",
+      "Combat Mech",
+      "Recon Mech",
+      "Urban Combat Mech"
+    ]
+  },
+  "Space+Job": null,
+  "Space+Encounter": null,
+  "Spaceship": null
+}
