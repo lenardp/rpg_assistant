@@ -1,0 +1,230 @@
+<butt>
+  <optgroup label="Human">
+    <option value="Human Male">Human Male Names</option>
+    <option value="Human Female">Human Female Names</option>
+    <option value="Human Town">Human Town Names</option>
+  </optgroup>
+  <optgroup label="Dwarvish">
+    <option value="Dwarvish Male">Dwarvish Male Names</option>
+    <option value="Dwarvish Female">Dwarvish Female Names</option>
+    <option value="Dwarvish Town">Dwarvish Town Names</option>
+  </optgroup>
+  <optgroup label="Elvish">
+    <option value="Elvish Male">Elvish Male Names</option>
+    <option value="Elvish Female">Elvish Female Names</option>
+    <option value="Elvish Town">Elvish Town Names</option>
+  </optgroup>
+  <optgroup label="Halfling">
+    <option value="Halfling Male">Halfling Male Names</option>
+    <option value="Halfling Female">Halfling Female Names</option>
+    <option value="Halfling Town">Halfling Town Names</option>
+  </optgroup>
+  <optgroup label="Draconic">
+    <option value="Draconic Male">Draconic Male Names</option>
+    <option value="Draconic Female">Draconic Female Names</option>
+  </optgroup>
+  <optgroup label="Drow">
+    <option value="Drow Male">Drow Male Names</option>
+    <option value="Drow Female">Drow Female Names</option>
+    <option value="Drow Town">Drow Town Names</option>
+  </optgroup>
+  <optgroup label="Orcish">
+    <option value="Orcish Male">Orcish Male Names</option>
+    <option value="Orcish Female">Orcish Female Names</option>
+    <option value="Orcish Town">Orcish Town Names</option>
+  </optgroup>
+  <optgroup label="Outsider">
+    <option value="Celestial">Celestial Names</option>
+    <option value="Fiendish">Fiendish Names</option>
+    <option value="Modron">Modron Names</option>
+  </optgroup>
+  <optgroup label="Elemental">
+    <option value="Air Elemental">Air Elemental Names</option>
+    <option value="Earth Elemental">Earth Elemental Names</option>
+    <option value="Fire Elemental">Fire Elemental Names</option>
+    <option value="Water Elemental">Water Elemental Names</option>
+  </optgroup>
+  <optgroup label="Entities">
+    <option value="Party">Adventuring Parties</option>
+    <option value="Ship">Ship Names</option>
+    <option value="Deity">Deities and Demigods</option>
+  </optgroup>
+  <optgroup label="Events">
+    <option value="Festival">Festivals and Holy Days</option>
+    <option value="Blasphemy">Blasphemous Rituals</option>
+    <option value="War">Wars and Battles</option>
+  </optgroup>
+  <optgroup label="Items">
+    <option value="Tome">Books and Tomes</option>
+    <option value="Weapon">Weapon Names</option>
+  </optgroup>
+  <optgroup label="Locations">
+    <option value="Kingdom">Kingdom Names</option>
+    <option value="Castle">Castle Names</option>
+    <option value="Dungeon">Dungeon Names</option>
+    <option value="Location">Wilderness Locations</option>
+    <option value="Planar Location">Planar Locations</option>
+  </optgroup>
+  <optgroup label="Towns and Cities">
+    <option value="Town">Towns and Cities</option>
+    <option value="Ward">Ward Names</option>
+    <option value="Street">Street Names</option>
+    <option value="Inn">Inns and Taverns</option>
+  </optgroup>
+  <optgroup label="Babylonian">
+    <option value="Babylonian Male">Babylonian Male Names</option>
+    <option value="Babylonian Female">Babylonian Female Names</option>
+    <option value="Babylonian Town">Babylonian Town Names</option>
+  </optgroup>
+  <optgroup label="Celtic">
+    <option value="Celtic Male">Celtic Male Names</option>
+    <option value="Celtic Female">Celtic Female Names</option>
+    <option value="Celtic Town">Celtic Town Names</option>
+  </optgroup>
+  <optgroup label="Egyptian">
+    <option value="Egyptian Male">Egyptian Male Names</option>
+    <option value="Egyptian Female">Egyptian Female Names</option>
+    <option value="Egyptian Town">Egyptian Town Names</option>
+  </optgroup>
+  <optgroup label="Greek">
+    <option value="Greek Male">Greek Male Names</option>
+    <option value="Greek Female">Greek Female Names</option>
+    <option value="Greek Town">Greek Town Names</option>
+  </optgroup>
+  <optgroup label="Roman">
+    <option value="Roman Male">Roman Male Names</option>
+    <option value="Roman Female">Roman Female Names</option>
+    <option value="Roman Town">Roman Town Names</option>
+  </optgroup>
+  <optgroup label="Sumerian">
+    <option value="Sumerian Male">Sumerian Male Names</option>
+    <option value="Sumerian Female">Sumerian Female Names</option>
+    <option value="Sumerian Town">Sumerian Town Names</option>
+  </optgroup>
+  <optgroup label="English">
+    <option value="English Male">English Male Names</option>
+    <option value="English Female">English Female Names</option>
+    <option value="English Town">English Town Names</option>
+  </optgroup>
+  <optgroup label="French">
+    <option value="French Male">French Male Names</option>
+    <option value="French Female">French Female Names</option>
+    <option value="French Town">French Town Names</option>
+  </optgroup>
+  <optgroup label="German">
+    <option value="German Male">German Male Names</option>
+    <option value="German Female">German Female Names</option>
+    <option value="German Town">German Town Names</option>
+  </optgroup>
+  <optgroup label="Italian">
+    <option value="Italian Male">Italian Male Names</option>
+    <option value="Italian Female">Italian Female Names</option>
+    <option value="Italian Town">Italian Town Names</option>
+  </optgroup>
+  <optgroup label="Norse">
+    <option value="Norse Male">Norse Male Names</option>
+    <option value="Norse Female">Norse Female Names</option>
+    <option value="Norse Town">Norse Town Names</option>
+  </optgroup>
+  <optgroup label="Saxon">
+    <option value="Saxon Male">Saxon Male Names</option>
+    <option value="Saxon Female">Saxon Female Names</option>
+    <option value="Saxon Town">Saxon Town Names</option>
+  </optgroup>
+  <optgroup label="Slavic">
+    <option value="Slavic Male">Slavic Male Names</option>
+    <option value="Slavic Female">Slavic Female Names</option>
+    <option value="Slavic Town">Slavic Town Names</option>
+  </optgroup>
+  <optgroup label="Spanish">
+    <option value="Spanish Male">Spanish Male Names</option>
+    <option value="Spanish Female">Spanish Female Names</option>
+    <option value="Spanish Town">Spanish Town Names</option>
+  </optgroup>
+  <optgroup label="Arabic">
+    <option value="Arabic Male">Arabic Male Names</option>
+    <option value="Arabic Female">Arabic Female Names</option>
+    <option value="Arabic Town">Arabic Town Names</option>
+  </optgroup>
+  <optgroup label="Chinese">
+    <option value="Chinese Male">Chinese Male Names</option>
+    <option value="Chinese Female">Chinese Female Names</option>
+    <option value="Chinese Town">Chinese Town Names</option>
+  </optgroup>
+  <optgroup label="Hebrew">
+    <option value="Hebrew Male">Hebrew Male Names</option>
+    <option value="Hebrew Female">Hebrew Female Names</option>
+    <option value="Hebrew Town">Hebrew Town Names</option>
+  </optgroup>
+  <optgroup label="Hindu">
+    <option value="Hindu Male">Hindu Male Names</option>
+    <option value="Hindu Female">Hindu Female Names</option>
+    <option value="Hindu Town">Hindu Town Names</option>
+  </optgroup>
+  <optgroup label="Japanese">
+    <option value="Japanese Male">Japanese Male Names</option>
+    <option value="Japanese Female">Japanese Female Names</option>
+    <option value="Japanese Town">Japanese Town Names</option>
+    <option value="Japanese Castle">Japanese Castle Names</option>
+  </optgroup>
+  <optgroup label="Mongolian">
+    <option value="Mongolian Male">Mongolian Male Names</option>
+    <option value="Mongolian Female">Mongolian Female Names</option>
+    <option value="Mongolian Town">Mongolian Town Names</option>
+  </optgroup>
+  <optgroup label="Persian">
+    <option value="Persian Male">Persian Male Names</option>
+    <option value="Persian Female">Persian Female Names</option>
+    <option value="Persian Town">Persian Town Names</option>
+  </optgroup>
+  <optgroup label="Congolese">
+    <option value="Congolese Male">Congolese Male Names</option>
+    <option value="Congolese Female">Congolese Female Names</option>
+    <option value="Congolese Town">Congolese Town Names</option>
+  </optgroup>
+  <optgroup label="Egyptian">
+    <option value="Egyptian Male">Egyptian Male Names</option>
+    <option value="Egyptian Female">Egyptian Female Names</option>
+    <option value="Egyptian Town">Egyptian Town Names</option>
+  </optgroup>
+  <optgroup label="Ethiopian">
+    <option value="Ethiopian Male">Ethiopian Male Names</option>
+    <option value="Ethiopian Female">Ethiopian Female Names</option>
+    <option value="Ethiopian Town">Ethiopian Town Names</option>
+  </optgroup>
+  <optgroup label="Malian">
+    <option value="Malian Male">Malian Male Names</option>
+    <option value="Malian Female">Malian Female Names</option>
+    <option value="Malian Town">Malian Town Names</option>
+  </optgroup>
+  <optgroup label="Algonquin">
+    <option value="Algonquin Male">Algonquin Male Names</option>
+    <option value="Algonquin Female">Algonquin Female Names</option>
+    <option value="Algonquin Town">Algonquin Town Names</option>
+  </optgroup>
+  <optgroup label="Aztec">
+    <option value="Aztec Male">Aztec Male Names</option>
+    <option value="Aztec Female">Aztec Female Names</option>
+    <option value="Aztec Town">Aztec Town Names</option>
+  </optgroup>
+  <optgroup label="Inkan">
+    <option value="Inkan Male">Inkan Male Names</option>
+    <option value="Inkan Female">Inkan Female Names</option>
+    <option value="Inkan Town">Inkan Town Names</option>
+  </optgroup>
+  <optgroup label="Inuit">
+    <option value="Inuit Male">Inuit Male Names</option>
+    <option value="Inuit Female">Inuit Female Names</option>
+    <option value="Inuit Town">Inuit Town Names</option>
+  </optgroup>
+  <optgroup label="Navajo">
+    <option value="Navajo Male">Navajo Male Names</option>
+    <option value="Navajo Female">Navajo Female Names</option>
+    <option value="Navajo Town">Navajo Town Names</option>
+  </optgroup>
+  <optgroup label="Sioux">
+    <option value="Sioux Male">Sioux Male Names</option>
+    <option value="Sioux Female">Sioux Female Names</option>
+    <option value="Sioux Town">Sioux Town Names</option>
+  </optgroup>
+</butt>

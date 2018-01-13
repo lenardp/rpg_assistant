@@ -16,6 +16,7 @@
   },
   "main": "lib/index.js",
   "dependencies": {
+    "merge-descriptors": "~1.0.1",
     "request": "~2.83.0",
     "tslint": "^5.8.0",
     "actions-on-google": "^1.0.0",

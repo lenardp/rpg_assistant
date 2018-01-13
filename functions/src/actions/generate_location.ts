@@ -5,18 +5,6 @@ const NUMBER_ARGUMENT = 'number';
 const GENERATOR_URL = 'http://donjon.bin.sh/fantasy/random/rpc.cgi?type=Location';
 const TYPE_ARGUMENT = 'location_type';
 
-const typeMap = {
-  'dungeon': 'Dungeon',
-  'town': 'Town',
-  'city': 'Town',
-  'civilized': 'Town',
-  'wilderness': 'Wilderness',
-  'wild': 'Wilderness',
-  'natural': 'Wilderness',
-  'plane': 'World',
-  'world': 'World'
-}
-
 function randomLocation(app: App, num: number, locType: string, callback: (app1: App, ary: string[]) => void) {
   console.log("randomLocation");
   console.log("locType " + locType);
@@ -25,7 +13,7 @@ function randomLocation(app: App, num: number, locType: string, callback: (app1:
   console.log("url " + url);
 
   requestModule.get(url, (error, resp, body) => {
-  console.log("requestModule");
+    console.log("requestModule");
     const json = JSON.parse(body);
     callback(app, json);
   });
@@ -33,13 +21,18 @@ function randomLocation(app: App, num: number, locType: string, callback: (app1:
 
 function sendResponse(app, questArray) {
   console.log("sendResponse");
-  const conjunction = "... Here's another:  ";
+  const conjunction = "Here's another:  ";
 
-  const fullMessage = questArray.join(conjunction);
-
-  console.log("fullMessage: " + fullMessage);
-
-  app.tell(fullMessage);
+  let quest, fullMessage;
+  for (let i=0; i<questArray.length; i++) {
+    quest = questArray[i];
+    if (i > 0) {
+      fullMessage = conjunction + quest;
+    } else {
+      fullMessage = quest;
+    }
+    app.tell(fullMessage);
+  }
 }
 
 export const generateLocation = (app: App) => {
@@ -50,7 +43,6 @@ export const generateLocation = (app: App) => {
     }
 
     let locType = app.getArgument(TYPE_ARGUMENT);
-    locType = typeMap[locType];
     if (typeof locType !== 'string') {
       locType = '';
     }

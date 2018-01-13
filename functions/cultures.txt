@@ -1,0 +1,39 @@
+cults = [
+      "",
+      "Babylonian",
+      "Celtic",
+      "Egyptian",
+      "Greek",
+      "Roman",
+      "Sumerian",
+      "English",
+      "French",
+      "German",
+      "Italian",
+      "Norse",
+      "Saxon",
+      "Slavic",
+      "Spanish",
+      "Arabic",
+      "Chinese",
+      "Hebrew",
+      "Hindu",
+      "Japanese",
+      "Mongolian",
+      "Persian",
+      "Congolese",
+      "Egyptian",
+      "Ethiopian",
+      "Malian",
+      "Algonquin",
+      "Aztec",
+      "Inkan",
+      "Inuit",
+      "Navajo",
+      "Sioux"
+    ]
+
+bruh = []
+for (let butt in cults) {
+bruh.push({"value": cults[butt], "synonyms":[cults[butt]]});
+}

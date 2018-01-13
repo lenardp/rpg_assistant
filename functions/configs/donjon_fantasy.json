@@ -1,0 +1,190 @@
+{
+  "Quest": null,
+  "Location": {
+    "loc_type":[
+      "Dungeon",
+      "Wilderness",
+      "Town",
+      "World"
+    ]
+  },
+  "Encounter": {
+    "enc_type": [
+      "Dungeon",
+      "Road",
+      "Sea",
+      "Wilderness",
+      "Town"
+    ]
+  },
+  "NPC": {
+    "gender": [
+      "",
+      "Male",
+      "Female"
+    ],
+    "race": [
+      "",
+      "Dwarf",
+      "Elf",
+      "Halfling",
+      "Human"
+    ],
+    "order": [
+      "",
+      "Adventurer",
+      "Common",
+      "Arcane",
+      "Divine",
+      "Martial",
+      "Scoundrel",
+      "Wild"
+    ],
+    "culture": [
+      "",
+      "Babylonian",
+      "Celtic",
+      "Egyptian",
+      "Greek",
+      "Roman",
+      "Sumerian",
+      "English",
+      "French",
+      "German",
+      "Italian",
+      "Norse",
+      "Saxon",
+      "Slavic",
+      "Spanish",
+      "Arabic",
+      "Chinese",
+      "Hebrew",
+      "Hindu",
+      "Japanese",
+      "Mongolian",
+      "Persian",
+      "Congolese",
+      "Egyptian",
+      "Ethiopian",
+      "Malian",
+      "Algonquin",
+      "Aztec",
+      "Inkan",
+      "Inuit",
+      "Navajo",
+      "Sioux"
+    ]
+  },
+  "Castle": null,
+  "Town": {
+    "town-size": [
+      "",
+      "Thorp",
+      "Hamlet",
+      "Village",
+      "Small Town",
+      "Large Town",
+      "Small City",
+      "Large City",
+      "Metropolis"
+    ],
+    "town-race": [
+      "",
+      "Human",
+      "Dwarf",
+      "Elf",
+      "Monstrous"
+    ],
+    "town-culture": [
+      "",
+      "Babylonian",
+      "Celtic",
+      "Egyptian",
+      "Greek",
+      "Roman",
+      "Sumerian",
+      "English",
+      "French",
+      "German",
+      "Italian",
+      "Norse",
+      "Saxon",
+      "Slavic",
+      "Spanish",
+      "Arabic",
+      "Chinese",
+      "Hebrew",
+      "Hindu",
+      "Japanese",
+      "Mongolian",
+      "Persian",
+      "Congolese",
+      "Egyptian",
+      "Ethiopian",
+      "Malian",
+      "Algonquin",
+      "Aztec",
+      "Inkan",
+      "Inuit",
+      "Navajo",
+      "Sioux"
+    ]
+  },
+  "Ship": {
+    "ship-class": [
+      "",
+      "Explorer's Ship",
+      "Merchant Ship",
+      "Noble's Yacht",
+      "Pirate Ship",
+      "Warship"
+    ],
+    "ship-race": [
+      "",
+      "Human",
+      "Dwarf",
+      "Elf",
+      "Monstrous"
+    ],
+    "ship-culture": [
+      "",
+      "Babylonian",
+      "Celtic",
+      "Egyptian",
+      "Greek",
+      "Roman",
+      "Sumerian",
+      "English",
+      "French",
+      "German",
+      "Italian",
+      "Norse",
+      "Saxon",
+      "Slavic",
+      "Spanish",
+      "Arabic",
+      "Chinese",
+      "Hebrew",
+      "Hindu",
+      "Japanese",
+      "Mongolian",
+      "Persian",
+      "Congolese",
+      "Egyptian",
+      "Ethiopian",
+      "Malian",
+      "Algonquin",
+      "Aztec",
+      "Inkan",
+      "Inuit",
+      "Navajo",
+      "Sioux"
+    ]
+  },
+  "World": null,
+  "Coat+of+Arms": null,
+  "Dungeon+Graffiti": null,
+  "Omen": null,
+  "Prophecy": null,
+  "Secret+Door+Detail": null
+}

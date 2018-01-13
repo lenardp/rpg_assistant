@@ -3,15 +3,20 @@
 process.env.DEBUG = 'actions-on-google:*';
 import { DialogflowApp as App } from 'actions-on-google';
 import * as functions from 'firebase-functions';
-import * as LocationGenerator from './actions/generate_location';
-import * as QuestGenerator from './actions/generate_quests';
+//import * as LocationGenerator from './actions/generate_location';
+//import * as QuestGenerator from './actions/generate_quests';
 import * as QuestSeedGenerator from './actions/generate_quest_seed';
+import * as PlotPointGenerator from './actions/generate_donjon';
+import * as NameGenerator from './actions/generate_name';
+const merge = require('merge-descriptors');
 
-const ACTION_MAP = {
-  'generate_quest': QuestGenerator.generateQuests,
-  'generate_location': LocationGenerator.generateLocation,
+let ACTION_MAP = {
+  //  'generate_quest': QuestGenerator.generateQuests,
+  //  'generate_location': LocationGenerator.generateLocation,
   'generate_quest_seeds': QuestSeedGenerator.generateQuestSeed
 }
+ACTION_MAP = merge(ACTION_MAP, PlotPointGenerator.ACTION_MAP);
+ACTION_MAP = merge(ACTION_MAP, NameGenerator.ACTION_MAP);
 
 export const rpgAssistant = functions.https.onRequest((request, response) => {
   const rpgApp = new App({request, response});
